@@ -18,7 +18,8 @@ log = "0.4.21"
 
 teensy4-bsp = { version = "0.4.7" }
 usb-device = "0.2.9"
-usbd-hid = "0.6.1"
+# 0.6.2 seems to have broken this
+usbd-hid = "=0.6.1"
 
 
 [dev-dependencies]
